@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { TagRule } from "./components/1_JsxRule/TagRule";
+import {
+  Fncomponent_1,
+  Fncomponent_2,
+} from "./components/2_component/Fncomponent";
+import Classcomponent from "./components/2_component/Classcomponent";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <TagRule /> */}
+      {/* <Fncomponent_1 />
+      <Fncomponent_2 /> */}
+
+      {/* <Classcomponent /> */}
+    </>
   );
-}
+};
 
 export default App;
