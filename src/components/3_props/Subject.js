@@ -1,5 +1,3 @@
-import "../../styles/Subject.css";
-
 export const Subject = ({ sub }) => {
   return (
     <>
