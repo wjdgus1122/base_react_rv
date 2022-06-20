@@ -12,6 +12,7 @@ import { IconEx } from "./components/5_icon/IconEx";
 import { Globalstyle } from "./styles/Globalstyle";
 import { IconExDb } from "./db";
 import { EventEx } from "./components/6_event/EventEx";
+import { MakeEvent } from "./components/6_event/MakeEvent";
 
 const App = () => {
   return (
@@ -27,7 +28,8 @@ const App = () => {
       {/* <Homework hdb={HomeworkDb} /> */}
       {/* <IconEx msdb={IconExDb} /> */}
 
-      <EventEx />
+      {/* <EventEx /> */}
+      <MakeEvent />
     </>
   );
 };
