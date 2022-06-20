@@ -11,6 +11,7 @@ import { HomeworkDb } from "./components/4_map/HomeworkDb";
 import { IconEx } from "./components/5_icon/IconEx";
 import { Globalstyle } from "./styles/Globalstyle";
 import { IconExDb } from "./db";
+import { EventEx } from "./components/6_event/EventEx";
 
 const App = () => {
   return (
@@ -24,7 +25,9 @@ const App = () => {
       {/* <SubjectDb /> */}
 
       {/* <Homework hdb={HomeworkDb} /> */}
-      <IconEx msdb={IconExDb} />
+      {/* <IconEx msdb={IconExDb} /> */}
+
+      <EventEx />
     </>
   );
 };
