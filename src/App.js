@@ -13,6 +13,7 @@ import { Globalstyle } from "./styles/Globalstyle";
 import { IconExDb } from "./db";
 import { EventEx } from "./components/6_event/EventEx";
 import { MakeEvent } from "./components/6_event/MakeEvent";
+import { RouteEx } from "./components/7_router/RouteEx";
 
 const App = () => {
   return (
@@ -30,6 +31,8 @@ const App = () => {
 
       {/* <EventEx /> */}
       <MakeEvent />
+
+      {/* <RouteEx /> */}
     </>
   );
 };
