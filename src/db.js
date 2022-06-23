@@ -10,3 +10,27 @@ export const IconExDb = [
     nickname: "btsLOVER",
   },
 ];
+
+export const productdata = [
+  {
+    id: 0,
+    img: `url(https://shopping-phinf.pstatic.net/main_1232451/12324511140.20210331172844.jpg?type=f640) no-repeat center/cover`,
+    title: "제품1",
+    text: `[당일발송/본사직영] 비프렌드 G2 마우스 3360센서 정확한 유선마우스
+    사무용 게이밍`,
+  },
+  {
+    id: 1,
+    img: `url(https://www.roomnhome.com/data/goods/19/04/16/186795993/186795993_detail_020.jpg) no-repeat center/cover`,
+    title: "제품2",
+    text: `{상반기결산}
+    브릭 풋 스툴`,
+  },
+  {
+    id: 2,
+    img: `url(https://www.roomnhome.com/data/goods/22/05/20/186798952/186798952_detail_046.jpg) no-repeat center/cover`,
+    title: "제품3",
+    text: `{상반기결산}
+    솔리드 쿨매트 (베이지/S,M,L)`,
+  },
+];
